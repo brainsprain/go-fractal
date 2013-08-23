@@ -5,19 +5,6 @@ go-fractal
 
 Playing around with go.
 
-Use a REST service to pass in parameters used to render a fractal.
-
-- [x] render fractal as an image based on parameters
-- [ ] use standard parameters
-- [ ] pluggable color model for image
-- [ ] pluggable algo
-- [ ] rendering as idiomatic go library
-- [ ] render fractal in parallel
-- [ ] distributed rendering using clustering library or zeromq custom
-- [ ] other performance enhancements
-- [ ] progressive jpeg, not sure if go supports for rendering
-- [ ] as web service
-
 
 Fractals
 - [Mandelbrot Atlas](http://www.miqel.com/fractals_math_patterns/mandelbrot_fractal_guide.html)
@@ -27,6 +14,8 @@ Fractals
 REST libs
 - [Ripple REST framework for Go](https://github.com/laurent22/ripple)
 - [Revel web framework for Go](http://robfig.github.io/revel/)
+- [go-restful](https://github.com/emicklei/go-restful)
+- [goweb](https://github.com/stretchr/goweb)
 
 ```bash
 GET /mandelbrot/real/imaginary/zoom
